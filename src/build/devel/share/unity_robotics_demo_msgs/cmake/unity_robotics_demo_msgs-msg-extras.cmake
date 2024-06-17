@@ -1,0 +1,2 @@
+set(unity_robotics_demo_msgs_MESSAGE_FILES "/home/anhtungnguyen/unity_ws/src/unity_robotics_demo_msgs/msg/PosRot.msg;/home/anhtungnguyen/unity_ws/src/unity_robotics_demo_msgs/msg/UnityColor.msg;/home/anhtungnguyen/unity_ws/src/unity_robotics_demo_msgs/msg/IntCus.msg")
+set(unity_robotics_demo_msgs_SERVICE_FILES "/home/anhtungnguyen/unity_ws/src/unity_robotics_demo_msgs/srv/ObjectPoseService.srv;/home/anhtungnguyen/unity_ws/src/unity_robotics_demo_msgs/srv/PositionService.srv")

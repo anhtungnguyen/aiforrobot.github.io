@@ -1,0 +1,209 @@
+{
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"generate_messages",
+			"add_dependencies"
+		],
+		"files" : 
+		[
+			"build/unity_robotics_demo_msgs/cmake/unity_robotics_demo_msgs-genmsg.cmake",
+			"/opt/ros/noetic/share/genmsg/cmake/genmsg-extras.cmake",
+			"unity_robotics_demo_msgs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 307,
+				"parent" : 1
+			},
+			{
+				"file" : 0,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 350,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 359,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 357,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 441,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 363,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 361,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 365,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 444,
+				"parent" : 3
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_UnityColor::@5b912763f04c42a8f8f3"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_PosRot::@5b912763f04c42a8f8f3"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "geometry_msgs_generate_messages_py::@5b912763f04c42a8f8f3"
+		},
+		{
+			"backtrace" : 8,
+			"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_ObjectPoseService::@5b912763f04c42a8f8f3"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_IntCus::@5b912763f04c42a8f8f3"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_PositionService::@5b912763f04c42a8f8f3"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "std_msgs_generate_messages_py::@5b912763f04c42a8f8f3"
+		}
+	],
+	"id" : "unity_robotics_demo_msgs_generate_messages_py::@5b912763f04c42a8f8f3",
+	"name" : "unity_robotics_demo_msgs_generate_messages_py",
+	"paths" : 
+	{
+		"build" : "unity_robotics_demo_msgs",
+		"source" : "unity_robotics_demo_msgs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"isGenerated" : true,
+			"path" : "build/unity_robotics_demo_msgs/CMakeFiles/unity_robotics_demo_msgs_generate_messages_py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/unity_robotics_demo_msgs/CMakeFiles/unity_robotics_demo_msgs_generate_messages_py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_PosRot.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_UnityColor.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/_IntCus.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/_ObjectPoseService.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/_PositionService.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/unity_robotics_demo_msgs/msg/__init__.py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/devel/lib/python3/dist-packages/unity_robotics_demo_msgs/srv/__init__.py.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

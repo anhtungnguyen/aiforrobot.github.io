@@ -1,0 +1,525 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						17,
+						23
+					]
+				},
+				{
+					"build" : "gtest",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/usr/src/googletest"
+				},
+				{
+					"build" : "gtest/googlemock",
+					"childIndexes" : 
+					[
+						3
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/usr/src/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				},
+				{
+					"build" : "gtest/googletest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "/usr/src/googletest/googletest",
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"build" : "unity_robotics_demo_msgs",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "unity_robotics_demo_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						8,
+						9,
+						10,
+						11,
+						12,
+						18,
+						19,
+						20,
+						21,
+						22,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				},
+				{
+					"build" : "ROS-TCP-Endpoint",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "ROS-TCP-Endpoint"
+				},
+				{
+					"build" : "unity_robotics_demo",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "unity_robotics_demo"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Project",
+					"targetIndexes" : 
+					[
+						5,
+						6,
+						7,
+						17,
+						23
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gmock",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						15,
+						16
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "unity_robotics_demo_msgs",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						8,
+						9,
+						10,
+						11,
+						12,
+						18,
+						19,
+						20,
+						21,
+						22,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "ros_tcp_endpoint",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "unity_robotics_demo",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 4,
+					"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_IntCus::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-_unity_robotics_demo_msgs_generate_messages_check_deps_IntCus-Debug-f1b7ff5ea6d2b9ff7d4b.json",
+					"name" : "_unity_robotics_demo_msgs_generate_messages_check_deps_IntCus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_ObjectPoseService::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-_unity_robotics_demo_msgs_generate_messages_check_deps_ObjectPoseService-Debug-6d1b2e7c61a1eb7210da.json",
+					"name" : "_unity_robotics_demo_msgs_generate_messages_check_deps_ObjectPoseService",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_PosRot::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-_unity_robotics_demo_msgs_generate_messages_check_deps_PosRot-Debug-d2efecdf770b2a044fd3.json",
+					"name" : "_unity_robotics_demo_msgs_generate_messages_check_deps_PosRot",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_PositionService::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-_unity_robotics_demo_msgs_generate_messages_check_deps_PositionService-Debug-62be9d82cf842e2d3157.json",
+					"name" : "_unity_robotics_demo_msgs_generate_messages_check_deps_PositionService",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "_unity_robotics_demo_msgs_generate_messages_check_deps_UnityColor::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-_unity_robotics_demo_msgs_generate_messages_check_deps_UnityColor-Debug-42cd13a343d436a7c5b9.json",
+					"name" : "_unity_robotics_demo_msgs_generate_messages_check_deps_UnityColor",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "clean_test_results::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-clean_test_results-Debug-0c2d8f4834861a8f9446.json",
+					"name" : "clean_test_results",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "download_extra_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-download_extra_data-Debug-26d419a6bf2b582c2a72.json",
+					"name" : "download_extra_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "doxygen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-doxygen-Debug-88595cbda2a15872d775.json",
+					"name" : "doxygen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_cpp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-geometry_msgs_generate_messages_cpp-Debug-db84d5271d113090707b.json",
+					"name" : "geometry_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_eus::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-geometry_msgs_generate_messages_eus-Debug-454a30240dabf466f61b.json",
+					"name" : "geometry_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_lisp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-geometry_msgs_generate_messages_lisp-Debug-0365b483fa66fab52d46.json",
+					"name" : "geometry_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_nodejs::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-geometry_msgs_generate_messages_nodejs-Debug-8a9825e4fcf442ff65d9.json",
+					"name" : "geometry_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "geometry_msgs_generate_messages_py::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-geometry_msgs_generate_messages_py-Debug-9907245d6c1555b8e6d4.json",
+					"name" : "geometry_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock-Debug-03c3c8958874bf77265c.json",
+					"name" : "gmock",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gmock_main::@e3f94eedc5dc07131386",
+					"jsonFile" : "target-gmock_main-Debug-a272300e859b534a19e8.json",
+					"name" : "gmock_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest-Debug-d898f45654e826fa9517.json",
+					"name" : "gtest",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@b738d542747fbb7ea6e3",
+					"jsonFile" : "target-gtest_main-Debug-e8ec9b980a1e2de661f5.json",
+					"name" : "gtest_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "run_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-run_tests-Debug-8df51f7a33fa18f9de57.json",
+					"name" : "run_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_cpp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-std_msgs_generate_messages_cpp-Debug-d57d723b56b36898fab3.json",
+					"name" : "std_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_eus::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-std_msgs_generate_messages_eus-Debug-7d162381282fc32b3b4a.json",
+					"name" : "std_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_lisp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-std_msgs_generate_messages_lisp-Debug-1c706d94ba8a97b4014b.json",
+					"name" : "std_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_nodejs::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-std_msgs_generate_messages_nodejs-Debug-c3a82ba3041ed4bc8b18.json",
+					"name" : "std_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "std_msgs_generate_messages_py::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-std_msgs_generate_messages_py-Debug-0d34ba76822733c128e9.json",
+					"name" : "std_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tests-Debug-645674a8b6faee116c67.json",
+					"name" : "tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_gencpp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_gencpp-Debug-5c54713c480d788f1892.json",
+					"name" : "unity_robotics_demo_msgs_gencpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_generate_messages::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_generate_messages-Debug-322e35756aacee7587e5.json",
+					"name" : "unity_robotics_demo_msgs_generate_messages",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_generate_messages_cpp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_generate_messages_cpp-Debug-28bed994115f056d1040.json",
+					"name" : "unity_robotics_demo_msgs_generate_messages_cpp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_generate_messages_eus::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_generate_messages_eus-Debug-c0bac99bc7c839737556.json",
+					"name" : "unity_robotics_demo_msgs_generate_messages_eus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_generate_messages_lisp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_generate_messages_lisp-Debug-1ad96811bc20f8935290.json",
+					"name" : "unity_robotics_demo_msgs_generate_messages_lisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_generate_messages_nodejs::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_generate_messages_nodejs-Debug-9ad7c8c1ff1dd65f5536.json",
+					"name" : "unity_robotics_demo_msgs_generate_messages_nodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_generate_messages_py::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_generate_messages_py-Debug-61be428f8ba00b7b66a0.json",
+					"name" : "unity_robotics_demo_msgs_generate_messages_py",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_geneus::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_geneus-Debug-82f8751664dc35ef22a2.json",
+					"name" : "unity_robotics_demo_msgs_geneus",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_genlisp::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_genlisp-Debug-8b6e0fae602a70be39ec.json",
+					"name" : "unity_robotics_demo_msgs_genlisp",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_gennodejs::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_gennodejs-Debug-6a6c3bfc5e6c1ef5c3b5.json",
+					"name" : "unity_robotics_demo_msgs_gennodejs",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "unity_robotics_demo_msgs_genpy::@5b912763f04c42a8f8f3",
+					"jsonFile" : "target-unity_robotics_demo_msgs_genpy-Debug-c6e996788309da4cd943.json",
+					"name" : "unity_robotics_demo_msgs_genpy",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/anhtungnguyen/unity_ws/src/build",
+		"source" : "/home/anhtungnguyen/unity_ws/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
